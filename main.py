@@ -5,8 +5,8 @@ import smtplib
 # USE YOUR OWN npoint LINK! ADD AN IMAGE URL FOR YOUR POST. 👇
 posts = requests.get("https://api.npoint.io/d47ad81afc1cf3a9a8da").json()
 
-my_email = "pratzz326@gmail.com"
-password = "qbtzclchghuvkjpx"
+my_email = "ENTER YOUR OWN EMAIL"
+password = "ENTER YOUR OWN PASSWORD"
 
 app = Flask(__name__)
 
